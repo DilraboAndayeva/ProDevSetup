@@ -1,0 +1,19 @@
+# Python virtual muhiti
+.venv/
+venv/
+ENV/
+env/
+
+# Baza va vaqtincha kesh fayllari
+*.sqlite3
+*.pyc
+pycache/
+.idea/
+.vscode/
+
+# Media va yuklangan fayllar
+media/
+
+# Maxsus kalitlar va sozlamalar
+.env
+local_settings.py

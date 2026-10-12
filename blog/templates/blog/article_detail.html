@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ article.title }} - ProDevSetup</title>
+    <meta name="description" content="{{ article.meta_description }}">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- Header -->
+    <header class="bg-slate-900 text-white border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 py-6 flex justify-between items-center">
+            <a href="/" class="text-2xl font-bold text-blue-400 tracking-wide">ProDev<span class="text-white">Setup</span></a>
+            <nav class="space-x-6">
+                <a href="/" class="hover:text-blue-400 transition">Home</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-4 py-12">
+        <div class="mb-6">
+            <a href="/" class="text-blue-600 text-sm font-semibold hover:underline">&larr; Back to all articles</a>
+        </div>
+
+        <article class="bg-white rounded-xl shadow-sm border border-gray-200 p-8">
+            <span class="text-xs font-semibold text-blue-600 bg-blue-50 px-3 py-1 rounded-full uppercase tracking-wider">
+                {{ article.category.name }}
+            </span>
+
+            <h1 class="text-3xl md:text-4xl font-extrabold mt-4 mb-4 text-gray-900">{{ article.title }}</h1>
+            <p class="text-sm text-gray-500 mb-8 pb-4 border-b">Updated on {{ article.updated_at|date:"F d, Y" }}</p>
+
+            <!-- Article Body -->
+            <div class="prose max-w-none text-gray-700 space-y-4 mb-10">
+                {{ article.content|safe }}
+            </div>
+
+            <!-- Product Recommendations (Affiliate Cards) -->
+            {% if article.products.all %}
+            <section class="mt-12 pt-8 border-t">
+                <h2 class="text-2xl font-bold mb-6 text-gray-900">Featured Product Recommendations</h2>
+                <div class="space-y-6">
+                    {% for product in article.products.all %}
+                    <div class="bg-slate-50 border border-slate-200 rounded-lg p-6">
+                        <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-4">
+                            <h3 class="text-xl font-bold text-slate-900">{{ product.product_name }}</h3>
+                            {% if product.price_estimate %}
+                            <span class="bg-green-100 text-green-800 text-sm font-semibold px-3 py-1 rounded">
+                                Approx. {{ product.price_estimate }}
+                            </span>
+                            {% endif %}
+                        </div>
+
+                        <!-- Pros & Cons -->
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-4 text-sm">
+                            <div class="bg-white p-4 rounded border border-green-200">
+                                <h4 class="font-bold text-green-700 mb-2">PROS</h4>
+                                <p class="text-gray-600">{{ product.pros }}</p>
+                            </div>
+                            <div class="bg-white p-4 rounded border border-red-200">
+                                <h4 class="font-bold text-red-700 mb-2">CONS</h4>
+                                <p class="text-gray-600">{{ product.cons }}</p>
+                            </div>
+                        </div>
+
+                        <!-- Amazon Button -->
+                        <div class="mt-4 pt-2">
+                            <a href="{{ product.amazon_link }}" target="_blank" rel="nofollow noopener"
+                               class="inline-block bg-amber-400 hover:bg-amber-500 text-slate-950 font-bold px-6 py-3 rounded-lg shadow transition">
+                                Check Price on Amazon &rarr;
+                            </a>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </section>
+            {% endif %}
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 py-8 border-t border-slate-800 text-xs">
+        <div class="max-w-6xl mx-auto px-4 text-center space-y-3">
+            <p>&copy; 2026 ProDevSetup. All rights reserved.</p>
+            <p class="max-w-2xl mx-auto text-slate-500">
+                <strong>Amazon Affiliate Disclosure:</strong> ProDevSetup is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
