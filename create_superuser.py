@@ -18,3 +18,4 @@ if not User.objects.filter(username=USERNAME).exists():
     print("Superuser muvaffaqiyatli yaratildi!")
 else:
     print("Superuser allaqachon mavjud.")
+os.system('python manage.py loaddata data.json')
