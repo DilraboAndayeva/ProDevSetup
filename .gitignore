@@ -5,7 +5,7 @@ ENV/
 env/
 
 # Baza va vaqtincha kesh fayllari
-*.sqlite3
+#*.sqlite3
 *.pyc
 pycache/
 .idea/
