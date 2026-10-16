@@ -1,65 +1,65 @@
 [
-  {
-    "model": "blog.article",
-    "pk": 1,
-    "fields": {
-      "title": "5 Best 4K Monitors for Programming and Coding in 2026",
-      "slug": "5-best-4k-monitors-for-programming-and-coding-in-2-",
-      "category": 1,
-      "content": "<h2>Why High Resolution Matters for Software Developers</h2><p>Coding for long hours requires sharp text rendering and ample screen estate. Upgrading to a 4K monitor reduces eye strain and boosts multi-window productivity.</p><p><a href='https://www.amazon.com/dp/B08X6K317W?tag=prodevsetup-20' class='btn' style='background: #f0c14b; padding: 10px 20px; text-decoration: none; color: black; font-weight: bold;'>Check Price on Amazon &rarr;</a></p>",
-      "meta_description": "Discover the best 4k monitors for programmers and coders in 2026.",
-      "created_at": "2026-10-12T15:53:14.505Z",
-      "updated_at": "2026-10-12T16:44:32.990Z"
-    }
-  },
-  {
-    "model": "blog.article",
-    "pk": 2,
-    "fields": {
-      "title": "5 Best Mechanical Keyboards for Software Engineers in 2026",
-      "slug": "5-best-mechanical-keyboards-for-software-engineers",
-      "category": 2,
-      "content": "<h2>Why Mechanical Keyboards are Essential for Coders</h2><p>Tactile feedback and ergonomic layout improve typing speed and minimize wrist fatigue during intensive programming sessions.</p><p><a href='https://www.amazon.com/dp/B0999V4X3K?tag=prodevsetup-20' class='btn' style='background: #f0c14b; padding: 10px 20px; text-decoration: none; color: black; font-weight: bold;'>Check Price on Amazon &rarr;</a></p>",
-      "meta_description": "Top 5 mechanical keyboards designed for programmers and software engineers.",
-      "created_at": "2026-10-12T17:02:45.725Z",
-      "updated_at": "2026-10-12T17:02:45.725Z"
-    }
-  },
-  {
-    "model": "blog.article",
-    "pk": 3,
-    "fields": {
-      "title": "5 Best Ergonomic Office Chairs for Developers in 2026",
-      "slug": "5-best-ergonomic-office-chairs-for-developers-in-2-",
-      "category": 3,
-      "content": "<h2>Prioritizing Spinal Health During Long Coding Hours</h2><p>As software engineers, sitting for extended periods is an inevitable part of the profession. Poor lumbar support and inadequate posture lead to chronic lower back pain, neck stiffness, and fatigue.</p><p><a href='https://www.amazon.com/dp/B07H3G3963?tag=prodevsetup-20' class='btn' style='background: #f0c14b; padding: 10px 20px; text-decoration: none; color: black; font-weight: bold;'>Check Price on Amazon &rarr;</a></p>",
-      "meta_description": "Protect your posture and eliminate back pain with the best ergonomic chairs.",
-      "created_at": "2026-10-12T17:18:52.414Z",
-      "updated_at": "2026-10-12T17:18:52.414Z"
-    }
-  },
-  {
-    "model": "blog.category",
-    "pk": 1,
-    "fields": {
-      "name": "Monitors",
-      "slug": "monitors"
-    }
-  },
-  {
-    "model": "blog.category",
-    "pk": 2,
-    "fields": {
-      "name": "Keyboards",
-      "slug": "keyboards"
-    }
-  },
-  {
-    "model": "blog.category",
-    "pk": 3,
-    "fields": {
-      "name": "Chairs",
-      "slug": "chairs"
-    }
-  }
+{
+"model": "blog.article",
+"pk": 1,
+"fields": {
+"title": "5 Best 4K Monitors for Programming and Coding in 2026",
+"slug": "5-best-4k-monitors-for-programming-and-coding-in-2026",
+"category": 1,
+"content": "<h2>Why High Resolution Matters for Software Developers</h2><p>Coding for long hours requires sharp text rendering and ample screen estate. Upgrading to a 4K monitor reduces eye strain and boosts multi-window productivity.</p><p><a href='[https://www.amazon.com/dp/B08X6K317W?tag=prodevsetup-20](https://www.amazon.com/dp/B08X6K317W?tag=prodevsetup-20)' class='btn' style='background: #f0c14b; padding: 10px 20px; text-decoration: none; color: black; font-weight: bold;'>Check Price on Amazon →</a></p>",
+"meta_description": "Discover the best 4k monitors for programmers and coders in 2026.",
+"created_at": "2026-10-12T15:53:14.505Z",
+"updated_at": "2026-10-12T16:44:32.990Z"
+}
+},
+{
+"model": "blog.article",
+"pk": 2,
+"fields": {
+"title": "5 Best Mechanical Keyboards for Software Engineers in 2026",
+"slug": "5-best-mechanical-keyboards-for-software-engineers-in-2026",
+"category": 2,
+"content": "<h2>Why Mechanical Keyboards are Essential for Coders</h2><p>Tactile feedback and ergonomic layout improve typing speed and minimize wrist fatigue during intensive programming sessions.</p><p><a href='[https://www.amazon.com/dp/B0999V4X3K?tag=prodevsetup-20](https://www.amazon.com/dp/B0999V4X3K?tag=prodevsetup-20)' class='btn' style='background: #f0c14b; padding: 10px 20px; text-decoration: none; color: black; font-weight: bold;'>Check Price on Amazon →</a></p>",
+"meta_description": "Top 5 mechanical keyboards designed for programmers and software engineers in 2026.",
+"created_at": "2026-10-12T17:02:45.725Z",
+"updated_at": "2026-10-12T17:02:45.725Z"
+}
+},
+{
+"model": "blog.article",
+"pk": 3,
+"fields": {
+"title": "5 Best Ergonomic Office Chairs for Developers in 2026",
+"slug": "5-best-ergonomic-office-chairs-for-developers-in-2026",
+"category": 3,
+"content": "<h2>Prioritizing Spinal Health During Long Coding Hours</h2><p>As software engineers, sitting for extended periods is an inevitable part of the profession. Poor lumbar support and inadequate posture lead to chronic lower back pain, neck stiffness, and fatigue.</p><p><a href='[https://www.amazon.com/dp/B07H3G3963?tag=prodevsetup-20](https://www.amazon.com/dp/B07H3G3963?tag=prodevsetup-20)' class='btn' style='background: #f0c14b; padding: 10px 20px; text-decoration: none; color: black; font-weight: bold;'>Check Price on Amazon →</a></p>",
+"meta_description": "Protect your posture and eliminate back pain with the best ergonomic chairs in 2026.",
+"created_at": "2026-10-12T17:18:52.414Z",
+"updated_at": "2026-10-12T17:18:52.414Z"
+}
+},
+{
+"model": "blog.category",
+"pk": 1,
+"fields": {
+"name": "Monitors",
+"slug": "monitors"
+}
+},
+{
+"model": "blog.category",
+"pk": 2,
+"fields": {
+"name": "Keyboards",
+"slug": "keyboards"
+}
+},
+{
+"model": "blog.category",
+"pk": 3,
+"fields": {
+"name": "Chairs",
+"slug": "chairs"
+}
+}
 ]
