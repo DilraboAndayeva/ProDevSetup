@@ -1,65 +1,65 @@
 [
-{
+  {
     "model": "blog.article",
     "pk": 1,
     "fields": {
-        "title": "5 Best 4K Monitors for programming and Coding in 2026",
-        "slug": "5-best-4k-monitors-for-programming-and-coding-in-2",
-        "category": 1,
-        "content": "<h2>Why High Resolution Matters for Software Developers</h2>\r\n<p>As software engineers, we spend 8 to 12 hours a day staring at text code. Low-resolution displays cause pixelated text, leading to severe eye fatigue and headaches. Upgrading to a high-quality 4K monitor provides sharp text rendering, vastly improving legibility and boosting daily workflow efficiency.</p>\r\n\r\n<h2>What to Look for in a Coding Monitor</h2>\r\n<ul>\r\n  <li><strong>Text Clarity & Pixel Density:</strong> Higher PPI (Pixels Per Inch) ensures razor-sharp code text.</li>\r\n  <li><strong>USB-C Connectivity:</strong> Single-cable connection for power delivery and display signal to your laptop.</li>\r\n  <li><strong>Ergonomics:</strong> Full height, tilt, and swivel adjustments to maintain healthy posture.</li>\r\n</ul>\r\n\r\n<h2>Top Recommended 4K Displays for Coding</h2>\r\n<p>Below is our curated list of the top-rated 4K monitors specifically evaluated for software development productivity in 2026.</p>",
-        "meta_description": "Discover the best 4k monitors for programmers and software developers in 2026",
-        "created_at": "2026-10-12T15:53:14.505Z",
-        "updated_at": "2026-10-12T16:44:32.990Z"
+      "title": "5 Best 4K Monitors for Programming and Coding in 2026",
+      "slug": "5-best-4k-monitors-for-programming-and-coding-in-2-",
+      "category": 1,
+      "content": "<h2>Why High Resolution Matters for Software Developers</h2><p>Coding for long hours requires sharp text rendering and ample screen estate. Upgrading to a 4K monitor reduces eye strain and boosts multi-window productivity.</p><p><a href='https://www.amazon.com/dp/B08X6K317W?tag=prodevsetup-20' class='btn' style='background: #f0c14b; padding: 10px 20px; text-decoration: none; color: black; font-weight: bold;'>Check Price on Amazon &rarr;</a></p>",
+      "meta_description": "Discover the best 4k monitors for programmers and coders in 2026.",
+      "created_at": "2026-10-12T15:53:14.505Z",
+      "updated_at": "2026-10-12T16:44:32.990Z"
     }
-},
-{
+  },
+  {
     "model": "blog.article",
     "pk": 2,
     "fields": {
-        "title": "5 Best Mechanical Keyboards for Software Engineers in 2026",
-        "slug": "5-best-mechanical-keyboards-for-software-engineers",
-        "category": 2,
-        "content": "<h2>Why Mechanical Keyboards are Essential for Coders</h2>\r\n<p>Typing speed and tactile feedback play a critical role in a developer's daily coding efficiency. Traditional membrane keyboards can cause finger strain during long programming sessions. Mechanical switches offer precise actuation, satisfying tactility, and reduced fatigue.</p>\r\n\r\n<h2>Key Features to Consider</h2>\r\n<ul>\r\n  <li><strong>Switch Type:</strong> Tactile (Brown), Linear (Red), or Clicky (Blue) depending on your office setup.</li>\r\n  <li><strong>Ergonomics & Layout:</strong> 75%, Tenkeyless (TKL), or Split ergonomic layouts to save desk space.</li>\r\n  <li><strong>Customizability:</strong> Hot-swappable PCBs and programmable keymaps (QMK/VIA support).</li>\r\n</ul>\r\n\r\n<h2>Top Keyboard Picks for 2026</h2>\r\n<p>Explore our highly recommended mechanical keyboards tailored for coding and daily workflow efficiency.</p>",
-        "meta_description": "Top 5 mechanical keyboards designed for programmers. Enhance typing comfort, speed, and ergonomics during long coding sessions.",
-        "created_at": "2026-10-12T17:02:45.725Z",
-        "updated_at": "2026-10-12T17:02:45.725Z"
+      "title": "5 Best Mechanical Keyboards for Software Engineers in 2026",
+      "slug": "5-best-mechanical-keyboards-for-software-engineers",
+      "category": 2,
+      "content": "<h2>Why Mechanical Keyboards are Essential for Coders</h2><p>Tactile feedback and ergonomic layout improve typing speed and minimize wrist fatigue during intensive programming sessions.</p><p><a href='https://www.amazon.com/dp/B0999V4X3K?tag=prodevsetup-20' class='btn' style='background: #f0c14b; padding: 10px 20px; text-decoration: none; color: black; font-weight: bold;'>Check Price on Amazon &rarr;</a></p>",
+      "meta_description": "Top 5 mechanical keyboards designed for programmers and software engineers.",
+      "created_at": "2026-10-12T17:02:45.725Z",
+      "updated_at": "2026-10-12T17:02:45.725Z"
     }
-},
-{
+  },
+  {
     "model": "blog.article",
     "pk": 3,
     "fields": {
-        "title": "5 Best Ergonomic Office Chairs for Developers in 2026",
-        "slug": "5-best-ergonomic-office-chairs-for-developers-in-2",
-        "category": 3,
-        "content": "<h2>Prioritizing Spinal Health During Long Coding Hours</h2>\r\n<p>As software engineers, sitting for extended periods is an inevitable part of the profession. Poor lumbar support and inadequate posture lead to chronic lower back pain, neck stiffness, and fatigue. Investing in an ergonomic office chair is the single most essential upgrade for long-term health and focus.</p>\r\n\r\n<h2>Key Ergonomic Features to Look For</h2>\r\n<ul>\r\n  <li><strong>Adjustable Lumbar Support:</strong> Dynamic lumbar control to keep your spine in a natural alignment.</li>\r\n  <li><strong>3D / 4D Armrests:</strong> Customizable height, angle, and width to relieve shoulder and wrist pressure.</li>\r\n  <li><strong>Breathable Mesh Material:</strong> High-tension mesh for optimum airflow during long work sessions.</li>\r\n</ul>\r\n\r\n<h2>Top Ergonomic Chair Selections for 2026</h2>\r\n<p>Here is our curated assessment of top-performing ergonomic office chairs built for software engineers and remote developers.</p>",
-        "meta_description": "Protect your posture and eliminate back pain with the best ergonomic office chairs for programmers sitting 8+ hours a day.",
-        "created_at": "2026-10-12T17:18:52.414Z",
-        "updated_at": "2026-10-12T17:18:52.414Z"
+      "title": "5 Best Ergonomic Office Chairs for Developers in 2026",
+      "slug": "5-best-ergonomic-office-chairs-for-developers-in-2-",
+      "category": 3,
+      "content": "<h2>Prioritizing Spinal Health During Long Coding Hours</h2><p>As software engineers, sitting for extended periods is an inevitable part of the profession. Poor lumbar support and inadequate posture lead to chronic lower back pain, neck stiffness, and fatigue.</p><p><a href='https://www.amazon.com/dp/B07H3G3963?tag=prodevsetup-20' class='btn' style='background: #f0c14b; padding: 10px 20px; text-decoration: none; color: black; font-weight: bold;'>Check Price on Amazon &rarr;</a></p>",
+      "meta_description": "Protect your posture and eliminate back pain with the best ergonomic chairs.",
+      "created_at": "2026-10-12T17:18:52.414Z",
+      "updated_at": "2026-10-12T17:18:52.414Z"
     }
-},
-{
+  },
+  {
     "model": "blog.category",
     "pk": 1,
     "fields": {
-        "name": "Monitors",
-        "slug": "monitors"
+      "name": "Monitors",
+      "slug": "monitors"
     }
-},
-{
+  },
+  {
     "model": "blog.category",
     "pk": 2,
     "fields": {
-        "name": "Keyboards",
-        "slug": "keyboards"
+      "name": "Keyboards",
+      "slug": "keyboards"
     }
-},
-{
+  },
+  {
     "model": "blog.category",
     "pk": 3,
     "fields": {
-        "name": "Chairs",
-        "slug": "chairs"
+      "name": "Chairs",
+      "slug": "chairs"
     }
-}
+  }
 ]
